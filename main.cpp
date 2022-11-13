@@ -53,51 +53,51 @@ Sub Object 1: Steering Wheel
     Name 4 things you'll find on the:    Steering Wheel
         1) paddle shifters
         2) 'cruise control' controls
-        3) 
-        4) 
+        3) horn buttons
+        4) multimedia controls
     Name 2 things you can do with the:   Steering Wheel
         1) adjust cruise control settings.
-        2)
+        2) signal a turn
         
 Sub Object 2: Instrument Cluster
     Name 4 things you'll find on the:   Instrument Cluster
-        1)
-        2)
-        3)
-        4)
+        1) speedometer
+        2) gear shift status
+        3) rev counter
+        4) engine temperature meter
     Name 3 things you can do with the:   Instrument Cluster
-        1)
-        2)
-        3)
+        1) check current speed
+        2) check active gear
+        3) check engine temperature
     
 Sub Object 3: Environment Controls
     Name 3 things you'll find on the:    Environment Controls
-        1)
-        2)
-        3)
+        1) A/C switch
+        2) temperature control left
+        3) temperature control right
     Name 3 things you can do with the:   Environment Controls
-        1)
-        2)
-        3)
+        1) turn on/off A/C
+        2) change left side temperature
+        3) change right side temperature
 
 Sub Object 4: Infotainment System
     Name 3 things you'll find on the:    Infotainment System
-        1)
-        2)
-        3)
+        1) display
+        2) on/off button
+        3) radio on/off button
     Name 3 things you can do with the:   Infotainment System
-        1)
-        2)
-        3)
+        1) listen to radio
+        2) make phone call
+        3) change speaker volume
 
 Sub Object 5: Seat 
     Name 3 things you'll find on the:    Seat
-        1)
-        2)
-        3)
+        1) seatbelt
+        2) headrest
+        3) seat adjustment controls
     Name 2 things you can do with the:   Seat
-        1)
-        2)
+        1) adjust seat
+        2) fasten seatbelt
 */
 
 /*
@@ -153,62 +153,6 @@ Part 1b Assignment: 1 Step
         c) pick properties that can eventually be represented with 
         'int float double bool char std::string'.
 */
-
-/*
-Thing 1)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 2)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 3)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 4)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
 
  /*
 Part 1c - Lesson
@@ -278,20 +222,6 @@ Define an object that is made of 5 sub-objects.
     These 5 sub-objects will not be defined using Primitives, but instead will be their own UDTs 
     you'll define these 5 sub-objects in Part 1d.
 */
-
-/*
-Thing 10)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
 
 /*
 Part 1d - Lesson
@@ -385,76 +315,6 @@ Step 3 is written below UDTs 5 - 9
 */
 
 /*
-Thing 5)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 6)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 7)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 8)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 9)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
 ===================
 Part 1d assignment: Step 3
 ===================
@@ -474,6 +334,291 @@ I will review the pseudo-code that you have written.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Thing 1)
+Kitchen
+5 properties:
+    1) number of pans (int)
+    2) number of pots (int)
+    3) size in square meters (float)
+    4) wall color (std::string)
+    5) number of plates (int)
+3 things it can do:
+    1) prepare food
+    2) wash dishes
+    3) store food
+*/
+
+/*
+Thing 2)
+Computer
+5 properties:
+    1) is a laptop (bool)
+    2) ssd storage in gigabytes (int)
+    3) ram in gigabytes (int)
+    4) screen size in inches (float)
+    5) operating system (std::string)
+3 things it can do:
+    1) browse the internet
+    2) play video game
+    3) write text document
+ */
+
+/*
+Thing 3)
+Bicycle
+5 properties:
+    1) amount of gears (int)
+    2) type of valve on tire (std::string)
+    3) has back brake (bool)
+    4) frame color (std::string)
+    5) type of saddle (std::string)
+3 things it can do:
+    1) shift gears
+    2) turn
+    3) accelerate
+ */
+
+/*
+Thing 4)
+Digital Mixing Desk
+5 properties:
+    1) number of channels (int)
+    2) audio network protocol (std::string)
+    3) number of faders (int)
+    4) has touch screen (bool)
+    5) weight in kilograms (float)
+3 things it can do:
+    1) mix audio
+    2) record audio
+    3) save current scene
+ */
+
+/*
+Thing 5)
+Cockpit
+5 properties:
+    1) number of seats (int)
+    2) number of windows (int)
+    3) number of displays (int)
+    4) size in square meters (float)
+    5) number of control wheels (int)
+3 things it can do:
+    1) change aircraft speed
+    2) display current altitude
+    3) use autopilot
+ */
+
+/*
+Thing 6)
+Passenger Area
+5 properties:
+    1) number of economy class seats (int)
+    2) number of business class seats (int)
+    3) location of life vests (std::string)
+    4) engine noise level in db (float)
+    5) has adjustable seats (bool)
+3 things it can do:
+    1) store hand luggage
+    2) seat passengers
+    3) change lighting
+ */
+
+/*
+Thing 7)
+Lavatory
+5 properties:
+    1) size in square meters (float)
+    2) has legacy ashtray (bool)
+    3) mirror size in squared inches (float)
+    4) sink volume in liters (float)
+    5) soap scent (std::string)
+3 things it can do:
+    1) flush toilet
+    2) lock door
+    3) wash hands
+ */
+
+/*
+Thing 8)
+Food Cart
+5 properties:
+    1) amount of drawers (int)
+    2) amount of sandwiches (int)
+    3) amount of soft drinks (int)
+    4) included hot drink (std::string)
+    5) amount of non-food items (int)
+3 things it can do:
+    1) sell drink
+    2) sell food
+    3) sell non-food item
+ */
+
+/*
+Thing 9)
+Personal Entertainment System
+5 properties:
+    1) screen size in diagonal inches (float)
+    2) amount of movies (int)
+    3) amount of songs (int)
+    4) amount of games (int)
+    5) has touch screen (bool)
+3 things it can do:
+    1) play movie
+    2) play song
+    3) play game
+ */
+
+/*
+Thing 10)
+Commercial Aircraft
+5 properties:
+    1) Cockpit
+    2) Passenger Area
+    3) Lavatory
+    4) Food Cart
+    5) Personal Entertainment System
+3 things it can do:
+    1) take off
+    2) land
+    3) accelerate
+ */
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
