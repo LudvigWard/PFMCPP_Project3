@@ -332,144 +332,6 @@ After you have MOVED your 10 UDTs, send me a DM with your pull request link.
 I will review the pseudo-code that you have written.
 */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 Thing 1)
 Kitchen
@@ -489,7 +351,7 @@ Kitchen
 Thing 2)
 Computer
 5 properties:
-    1) is a laptop (bool)
+    1) brand (std::string)
     2) ssd storage in gigabytes (int)
     3) ram in gigabytes (int)
     4) screen size in inches (float)
@@ -506,7 +368,7 @@ Bicycle
 5 properties:
     1) amount of gears (int)
     2) type of valve on tire (std::string)
-    3) has back brake (bool)
+    3) number of brakes (int)
     4) frame color (std::string)
     5) type of saddle (std::string)
 3 things it can do:
@@ -522,7 +384,7 @@ Digital Mixing Desk
     1) number of channels (int)
     2) audio network protocol (std::string)
     3) number of faders (int)
-    4) has touch screen (bool)
+    4) number of displays (int)
     5) weight in kilograms (float)
 3 things it can do:
     1) mix audio
@@ -553,7 +415,7 @@ Passenger Area
     2) number of business class seats (int)
     3) location of life vests (std::string)
     4) engine noise level in db (float)
-    5) has adjustable seats (bool)
+    5) number of adjustable seats (int)
 3 things it can do:
     1) store hand luggage
     2) seat passengers
@@ -565,7 +427,7 @@ Thing 7)
 Lavatory
 5 properties:
     1) size in square meters (float)
-    2) has legacy ashtray (bool)
+    2) number of legacy ashtray (int)
     3) mirror size in squared inches (float)
     4) sink volume in liters (float)
     5) soap scent (std::string)
@@ -598,7 +460,7 @@ Personal Entertainment System
     2) amount of movies (int)
     3) amount of songs (int)
     4) amount of games (int)
-    5) has touch screen (bool)
+    5) type of display (std::string)
 3 things it can do:
     1) play movie
     2) play song
