@@ -202,6 +202,27 @@ Kitchen
     3) store food
 */
 
+struct Kitchen
+{
+// number of pans (int)
+    int numPans = 4;
+// number of pots (int)
+    int numPots = 3;
+// size in square meters (float)
+    float floorArea = 8.5f;
+// wall color (std::string)
+    std::string wallColor = "white";
+// number of plates (int)
+    int numPlates = 10;
+
+// prepare food
+    void prepareFood();
+// wash dishes
+    void washDishes();
+// store food
+    void storeFood();
+};
+
 /*
 Thing 2)
 Computer
