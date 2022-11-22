@@ -541,7 +541,7 @@ Commercial Aircraft
     2) land
     3) accelerate
  */
-struct commercialAircraft
+struct CommercialAircraft
 {
 // Cockpit
     Cockpit cockpit;
@@ -559,7 +559,7 @@ struct commercialAircraft
 // land
     void land(std::string airportArrivedAt);
 // accelerate
-    void Accellerate(float targetKilometersPerHour);
+    void accellerate(float targetKilometersPerHour);
 };
 
 /*
